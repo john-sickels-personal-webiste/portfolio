@@ -33,6 +33,10 @@ li a:hover {
     background-color: #4D7EA8;
 }
 
+.active {
+    color: #272932;
+}
+
 main {
     background-color: #272932;
     color: #B6C2D9;
@@ -42,7 +46,20 @@ main {
 }
 
 img {
-    float: left;
     width: 30%;
     margin: 20px;
+}
+
+.left-image {
+    float: left;
+}
+
+.right-image {
+    float: right;
+}
+
+/* Rounded border */
+hr.rounded {
+    border-top: 8px solid #bbb;
+    border-radius: 5px;
 }
