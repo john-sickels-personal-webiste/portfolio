@@ -1,5 +1,7 @@
 body {
-    margin: 0
+    margin: 0;
+    background-color: #b6c2d9;
+
 }
 
 h1 {
@@ -11,7 +13,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #9E90A2;
     font-size: 1.5em;
 }
 
@@ -28,5 +30,19 @@ li a {
 }
 
 li a:hover {
-    background-color: #E11D22;
+    background-color: #4D7EA8;
+}
+
+main {
+    background-color: #272932;
+    color: #B6C2D9;
+    padding: 20px;
+    overflow: hidden;
+    margin: 0 25px
+}
+
+img {
+    float: left;
+    width: 30%;
+    margin: 20px;
 }
