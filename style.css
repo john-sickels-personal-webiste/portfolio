@@ -21,7 +21,8 @@ li {
     float: left;
 }
 
-li a {
+li a,
+li span {
     display: block;
     color: white;
     text-align: center;
@@ -35,6 +36,15 @@ li a:hover {
 
 .active {
     color: #272932;
+}
+
+.topnav-right {
+    float: right;
+}
+
+.topnav-right li span {
+    color: #272932;
+    font-weight: bolder;
 }
 
 main {
